@@ -57,7 +57,9 @@ a {
 
 /* header */
 .hero-wrap {
-    padding-top: calc(130px - 12px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: relative;
     background: #E6F0FF;
     height: calc(100vh - 90px);
