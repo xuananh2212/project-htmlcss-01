@@ -5,6 +5,9 @@
 html {
     font-size: 62.5%;
 }
+html, body {
+    scroll-behavior: smooth;
+}
 
 :root {
     --primary-color: #0f1b4c;
@@ -57,7 +60,7 @@ a {
     padding-top: calc(130px - 12px);
     position: relative;
     background: #E6F0FF;
-    height: 100vh;
+    height: calc(100vh - 90px);
 
 
 }
