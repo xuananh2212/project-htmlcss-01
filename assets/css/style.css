@@ -173,7 +173,7 @@ a {
 
 .clients .clients-img {
     display: flex;
-    margin-top: 96px;
+    margin-top: 70px;
     justify-content: space-between;
 
 }
@@ -682,6 +682,7 @@ a {
     display: flex;
     width: 28px;
     height: 28px;
+    background: #F9F9F9;
 }
 
 .footer .social img {
